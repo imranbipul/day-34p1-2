@@ -1,0 +1,164 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+.clearfix::after{
+    content: "";
+    display:block;
+    clear: both;
+}
+.fixed-width{
+    width: 1120px;
+    margin: auto;
+}
+img{
+    max-width: 100%;
+}
+
+/* header-css start-now-===================================================== */
+.header-section{
+    background-color: #f5deb3;
+    margin-top: 0px;
+     width: 100%;
+}
+
+.div-left{
+    float: left;
+    width: 15%;
+    color: #ffffff;
+    margin-top: 7px;
+    max-width: 100%;
+
+}
+.div-right{
+    float: right;
+    width: 85%;
+}
+.div-right ul{
+    text-align:right;
+}
+.div-right ul li{
+    display: inline-block;
+    margin-left: -4px;
+    
+}
+.div-right ul li a{
+    text-decoration: none;
+    color: #ffffff;
+    padding: 41px 18px;
+    line-height: 83px;
+    font-size: 22px;
+    border-right: 1px solid #ffff;
+}
+
+/* banare section */
+.bannare-section{
+    background-image: url("https://i.ibb.co/DRxzK56/intro-bg.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    padding: 200px 0;
+}
+.welcome{
+    text-align: center;
+}
+.welcome h3{
+    font-size: 25px;
+    color: #2c78c1;
+    margin-bottom: 15px;
+}
+.welcome h2{
+    font-size: 34px;
+    color: #2c78c1;
+}
+/* about section */
+.about-section{
+padding: 40px 0;
+}
+.about-img{
+    width: 25%;
+    float: left;
+}
+.about-img img{
+    width: 82%;
+}
+.about-content{
+     width: 75%;
+    float: right;
+    padding: 15px 0;
+}
+.about-content h2{
+      margin-bottom: 25px;
+}
+.about-content h5{
+    margin-bottom: 22px;
+    font-size: 20px;
+}
+.about-content p{
+    line-height: 28px;
+}
+
+
+
+
+/* service-section */
+.service-section{
+    padding: 60px 0;
+    background: #fffaf0;
+}
+.service{
+    float: left;
+    width: 32%;
+    text-align: center;
+    border: 1px dashed blue;
+    padding: 28px 0;
+    border-radius: 20% 0;
+}
+.service span {
+    font-size: 30px;
+    width: 50px;
+    height: 50px;
+    line-height: 50px;
+    display: inline-block;
+    border: 2px dotted blue;
+    margin-bottom: 20px;
+    border-radius: 18px 0;
+    color: blue;
+}
+.service h2{}
+.service p{
+    width: 246px;
+    margin: 9px auto;}
+.margin-div{
+    margin: 0 15px;
+}
+/* footer section */
+.footer-section{
+    background: #2c3e50;
+    padding: 20px 0;
+    color: #fff;
+}
+.content{
+    width: 50%;
+float: left;
+}
+.social-menu{
+    width: 50%;
+    float: right;
+    text-align: right;
+}
+.social-menu ul{
+    list-style: none;
+
+}
+.social-menu ul li{
+    display: inline-block;
+}
+.social-menu ul li a{
+    display: block;
+    color: #fff;
+    padding: 0 9px;
+    font-size: 21px;
+}
+
